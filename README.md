@@ -42,3 +42,11 @@ Classify fetal health in order to prevent child and maternal mortality. Classifi
 - histogram_median
 - histogram_variance
 - Histogram trend
+
+
+### Measure of Focus
+Common measures used to evaluate the outcome of classification problems include AUC, F1 score, Precision and Recall.
+
+Further, when analysing the data, it is apparent that there is considerable class imbalance and therefore accuracy is not recommended as primary metric.
+
+In this problem, the cost of not correctly identifying risks with child birth (ie. Case 3 of the predictor variable, that being Pathological) is high and there recall for case 3 should be the metric of focus), this measures: for pathological outcomes what proportion of actual positives was identified correctly?
